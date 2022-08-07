@@ -1,11 +1,10 @@
 package strategy;
 
 import dataStructures.Vacancy;
-
 import java.util.List;
 
 public class StrategyDataRealisator {
-    private ParseVacancyStrategy parseVacancyStrategy;
+    private final ParseVacancyStrategy parseVacancyStrategy;
 
     public StrategyDataRealisator(ParseVacancyStrategy parseVacancyStrategy) {
         this.parseVacancyStrategy = parseVacancyStrategy;
